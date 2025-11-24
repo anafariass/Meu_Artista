@@ -36,6 +36,6 @@ async function IniciarBusca() {
    const dadosFiltrados = dados.filter(dado => 
       dado.nome.toLowerCase().includes(termoBusca) || dado.descricao.toLowerCase().includes(termoBusca));
    
-   redenrizarCards(dadosFiltrados);
+   renderizarCards(dadosFiltrados);
 }
 
